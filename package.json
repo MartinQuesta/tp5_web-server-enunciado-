@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "2021-10-12-servidores-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node .",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,10 @@
+import { crearServidor } from './server.js'
+
+const servidor = crearServidor()
+
+
+const PORT = 5000;
+
+const conexion = await servidor.conectar(PORT)
+
+console.log(`servidor activo en puerto ${conexion.address().port}`)
